@@ -1,3 +1,26 @@
+## ixblue_stdbin_decoder (kinetic) - 0.1.2-1
+
+The packages in the `ixblue_stdbin_decoder` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release ixblue_stdbin_decoder --rosdistro kinetic --track kinetic --new-track` on `Mon, 31 Aug 2020 14:10:17 -0000`
+
+The `ixblue_stdbin_decoder` package was released.
+
+Version of package(s) in repository `ixblue_stdbin_decoder`:
+
+- upstream repository: https://github.com/ixblue/ixblue_stdbin_decoder.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.1.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.8`
+- catkin_pkg version: `0.4.22`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## ixblue_stdbin_decoder (noetic) - 0.1.1-1
 
 The packages in the `ixblue_stdbin_decoder` repository were released into the `noetic` distro by running `/usr/bin/bloom-release ixblue_stdbin_decoder --track noetic --rosdistro noetic --new-track` on `Fri, 28 Aug 2020 12:17:57 -0000`
