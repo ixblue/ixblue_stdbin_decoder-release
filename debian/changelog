@@ -1,0 +1,39 @@
+ros-melodic-ixblue-stdbin-decoder (0.1.3-1stretch) stretch; urgency=high
+
+  * Add ins algorithm status and ins system status bits description in emums
+  * Add clang format file
+  * Set CMake project version from package.xml
+  * Contributors: Romain Reignier
+
+ -- Romain Reignier <romain.reignier@ixblue.com>  Sun, 20 Sep 2020 22:00:00 -0000
+
+ros-melodic-ixblue-stdbin-decoder (0.1.2-1stretch) stretch; urgency=high
+
+  * Fix CMake config file for older CMake
+    In order to do a Kinetic release.
+  * Contributors: Romain Reignier
+
+ -- Romain Reignier <romain.reignier@ixblue.com>  Sun, 30 Aug 2020 22:00:00 -0000
+
+ros-melodic-ixblue-stdbin-decoder (0.1.1-1stretch) stretch; urgency=high
+
+  * Reduce minimum required CMake version to allow build on Debian Stretch for ROS Melodic
+  * Contributors: Romain Reignier
+
+ -- Romain Reignier <romain.reignier@ixblue.com>  Wed, 26 Aug 2020 22:00:00 -0000
+
+ros-melodic-ixblue-stdbin-decoder (0.1.0-1stretch) stretch; urgency=high
+
+  * Add package.xml to build with catkin
+  * Rework cmake installation
+  * Rename to ixblue_stdbin_decoder in lower case to stay consistent
+  * Allow the parser to read other header types (Answer and command)
+  * Use boost::asio::const_buffer instead of boost::asio::mutable_buffer
+    Frame data is not modified while parsed.
+  * Change namespace to ixblue_stdbin_decoder to avoid naming conflict with StdBinDecoder class
+    Causes issues in IDEs and adds confusion
+  * Contributors: Adrien BARRAL, Romain Reignier
+
+ -- Romain Reignier <romain.reignier@ixblue.com>  Tue, 25 Aug 2020 22:00:00 -0000
+
+
